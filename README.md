@@ -7,4 +7,4 @@
 Each ant is a simple automaton that can move around, sense the local pheromone and
 food levels and make crude probabilistic decisions.
 
-[ant-img]: https://github.com/aijams/Ants.git/tree/master/img/ant_img.png
+[ant-img]: https://github.com/aijams/Ants/blob/master/img/ant_img.png
