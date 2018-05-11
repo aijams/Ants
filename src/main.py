@@ -19,12 +19,14 @@ class Environment:
         energies = self.ants[:]['energy']
         states = self.ants[:]['state']
 
+        # IDEA allow ants to sense pheromone outside their current square
+        # use [pos_x-r:pos_x+r, pos_y-r:pos_y+r] to get a square neighborhood
         pheromone_under_ants = self.world[pos_x, pos_y]['pheromone']
         food_under_ants = self.world[pos_x, pos_y]['food']
 
         # perform ant AI operations
-
-
+        # IDEA treat each ant as an instruction processing machine
+        # IDEA ants have a small probability to make a mistake in their operation
 
 
 
